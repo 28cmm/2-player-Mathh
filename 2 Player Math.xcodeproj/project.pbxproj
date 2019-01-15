@@ -15,6 +15,8 @@
 		2806004F21ED4DE300DCD2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806004E21ED4DE300DCD2F5 /* main.m */; };
 		2806005921ED4DE300DCD2F5 /* __Player_MathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806005821ED4DE300DCD2F5 /* __Player_MathTests.m */; };
 		2806006421ED4DE300DCD2F5 /* __Player_MathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806006321ED4DE300DCD2F5 /* __Player_MathUITests.m */; };
+		2806007321ED4EE100DCD2F5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806007221ED4EE100DCD2F5 /* Player.m */; };
+		2806007621ED4F2E00DCD2F5 /* gameHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2806007521ED4F2E00DCD2F5 /* gameHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2806005F21ED4DE300DCD2F5 /* 2 Player MathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2 Player MathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2806006321ED4DE300DCD2F5 /* __Player_MathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Player_MathUITests.m; sourceTree = "<group>"; };
 		2806006521ED4DE300DCD2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2806007121ED4EE100DCD2F5 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2806007221ED4EE100DCD2F5 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2806007421ED4F2E00DCD2F5 /* gameHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameHandler.h; sourceTree = "<group>"; };
+		2806007521ED4F2E00DCD2F5 /* gameHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2806004021ED4DE200DCD2F5 /* AppDelegate.m */,
 				2806004221ED4DE200DCD2F5 /* ViewController.h */,
 				2806004321ED4DE200DCD2F5 /* ViewController.m */,
+				2806007121ED4EE100DCD2F5 /* Player.h */,
+				2806007221ED4EE100DCD2F5 /* Player.m */,
+				2806007421ED4F2E00DCD2F5 /* gameHandler.h */,
+				2806007521ED4F2E00DCD2F5 /* gameHandler.m */,
 				2806004521ED4DE200DCD2F5 /* Main.storyboard */,
 				2806004821ED4DE300DCD2F5 /* Assets.xcassets */,
 				2806004A21ED4DE300DCD2F5 /* LaunchScreen.storyboard */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2806007321ED4EE100DCD2F5 /* Player.m in Sources */,
 				2806004421ED4DE200DCD2F5 /* ViewController.m in Sources */,
+				2806007621ED4F2E00DCD2F5 /* gameHandler.m in Sources */,
 				2806004F21ED4DE300DCD2F5 /* main.m in Sources */,
 				2806004121ED4DE200DCD2F5 /* AppDelegate.m in Sources */,
 			);
